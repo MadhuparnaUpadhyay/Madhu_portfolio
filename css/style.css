@@ -21,14 +21,28 @@ body h1,h2,h3,h4,h5,h6{
 }
 /*-- header --*/
 #home {
-    background: url(http://res.cloudinary.com/dawbiue3n/image/upload/w_auto,q_auto,f_auto/v1530033118/Portfolio/header-madhu.png) no-repeat center top;
-    -webkit-background-size: contain;
+    background: url(http://res.cloudinary.com/dawbiue3n/image/upload/w_auto,q_auto,f_auto/v1530033118/Portfolio/header-madhu11.png) no-repeat center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    min-height:650px;
+	position: relative;
+  background-size: cover;
+  
+}
+@media (min-width: 320px) and (max-width: 1024px) {
+  
+  #home {
+    background: url(http://res.cloudinary.com/dawbiue3n/image/upload/w_auto,q_auto,f_auto/v1530033118/Portfolio/header-madhu11.png) no-repeat center top;
+    -webkit-background-size: cover;
     -moz-background-size: contain;
     -o-background-size: contain;
     -ms-background-size: contain;
-    min-height:650px;
-	position: relative;
+     min-height:650px;
+  position: relative;
   background-size: contain;
+  
   
 }
 .top-header {
