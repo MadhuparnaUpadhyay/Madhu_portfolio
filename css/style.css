@@ -219,7 +219,7 @@ ul.social-icons{
     margin-right: 1%;
 }
 .social-icons li a{  
-    background: url(../images/social-icons2.png) no-repeat 3px 3px;
+   /* background: url(../images/social-icons2.png) no-repeat 3px 3px;*/
     display: block;
     height: 32px;
     width: 32px;
@@ -230,8 +230,8 @@ ul.social-icons{
 }
 .social-icons li a:before {
 	content: '';
-    display: block;
-    height: 32px;
+    /*display: block;
+    height: 32px;*/
     width: 32px;
        border: 2px solid #fff;
 	-webkit-transform: rotate(45deg);
@@ -242,13 +242,17 @@ ul.social-icons{
     box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);	
 }
 .social-icons li a.fb{
-	background-position: 3px -30px;
+  background: url(../images/fb.png)
+	
 }
 .social-icons li a.in{
-      background-position: 3px -62px;
+      background: url(../images/in.png)
 }
-.social-icons li a.dott {
-background-position: 3px -94px;
+.social-icons li a.git {
+  background: url(../images/git.png)
+}
+.social-icons li a.gplus {
+  background: url(../images/google.png)
 }
 .social-icons li a:hover::before {
     border-color: #00a78e;
