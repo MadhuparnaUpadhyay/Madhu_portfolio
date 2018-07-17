@@ -171,6 +171,20 @@ ul.address {
     position: relative;
       box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 }
+.resume-head h4 {
+    font-size: 1.2em;
+    color: #FFF;
+    background: #00a78e;
+    display: inline-block;
+    padding: .5em 1.5em;
+    position: relative;
+    margin-bottom: -20px;
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.resume-head a {
+  color:#fff;
+}
 .service-head h4:before {
     width: 0;
     height: 0;
